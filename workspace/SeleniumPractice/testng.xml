@@ -1,0 +1,22 @@
+<suite name="Velocity_Login_By_Testng_suite">
+	<test name="Testng_Suite_Example">
+	<parameter name="aPPURL" value="https://velocity.voyagersopris.com"/>
+ 	<parameter name="sUsername" value="5gradejan16a"/>
+	<parameter name="sPassword" value="5gradejan16a"/>
+	<parameter name="fIlepath" value="C:\\Users\\yugandhar\\workspace\\SeleniumPractice\\src\\testdata\\TestData.xlsx"/>
+	<parameter name="sHeetname" value="Sheet1"/>
+		<classes>
+			<class name="sp.com.module.Loginpage" />
+		</classes>
+	</test>
+
+	<!-- <test name="Testng_Suite_Example">
+			<classes>
+			<class name="package.Classthis" />
+		</classes>
+	</test>
+ -->
+
+
+
+</suite> 

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Velocity_Login_By_Testng_suite" duration-ms="18591" started-at="2017-02-21T10:56:39Z" finished-at="2017-02-21T10:56:57Z">
+    <groups>
+    </groups>
+    <test name="Testng_Suite_Example" duration-ms="18591" started-at="2017-02-21T10:56:39Z" finished-at="2017-02-21T10:56:57Z">
+      <class name="sp.com.module.Loginpage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:sp.com.module.Loginpage@4cf777e8]" name="setup" is-config="true" duration-ms="5903" started-at="2017-02-21T16:26:39Z" finished-at="2017-02-21T16:26:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="resetdata(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sp.com.module.Loginpage@4cf777e8]" name="resetdata" duration-ms="12624" started-at="2017-02-21T16:26:45Z" finished-at="2017-02-21T16:26:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://velocity.voyagersopris.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5gradejan16a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5gradejan16a]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[C:\\Users\\yugandhar\\workspace\\SeleniumPractice\\src\\testdata\\TestData.xlsx]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sheet1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetdata -->
+      </class> <!-- sp.com.module.Loginpage -->
+    </test> <!-- Testng_Suite_Example -->
+  </suite> <!-- Velocity_Login_By_Testng_suite -->
+</testng-results>

@@ -1,0 +1,32 @@
+package sp.com.module;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+import sp.com.locators.Loginpagelocators;
+import utility.Basesetup;
+
+public class Loginpage implements Loginpagelocators {
+
+	WebDriver driver=null;
+	Basesetup bp = new Basesetup();
+	@Test
+	@Parameters({"aPPURL","sUsername","sPassword","fIlepath"})
+	public void resetdata(String aPPURL,String sUsername, String sPassword,String fIlepath) throws Exception {
+
+		//WebDriver driver = new FirefoxDriver();
+		driver = bp.getdriver();	
+
+		//Login into application
+		driver.get(aPPURL);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		//Resetfunctionality.highlightElement(driver.findElement(By.id("inputEmail")));
+		driver.findElement(USERNAME).sendKeys(sUsername);
+		driver.findElement(PASSWORD).sendKeys(sPassword);
+		driver.findElement(LOGINBUTTON).click();
+
+	}
+}

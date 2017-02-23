@@ -1,0 +1,10 @@
+<suite name="Velocity_Login_By_Testng_suite">
+	<test name="Testng_Suite_Example">
+	<parameter name="sUsername" value="5gradejan16a"/>
+	<parameter name="sPassword" value="5gradejan16a"/>
+	<parameter name="fIlepath" value="C:\\Users\\yugandhar\\Desktop\\workbook.xlsx"/>
+		<classes>
+			<class name="SeleniumVelocity.ResetdataExcel" />
+		</classes>
+	</test>
+</suite> 

@@ -1,0 +1,434 @@
+21/Feb/2017 16:05:05 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+21/Feb/2017 16:05:05 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+21/Feb/2017 16:05:05 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://localhost:3934][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21/Feb/2017 16:05:05 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 0][route: {}->http://localhost:3934][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+21/Feb/2017 16:05:05 org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://localhost:3934
+21/Feb/2017 16:05:05 org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to localhost/127.0.0.1:3934
+21/Feb/2017 16:05:05 org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:63867<->127.0.0.1:3934
+21/Feb/2017 16:05:05 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-0: set socket timeout to 10800000
+21/Feb/2017 16:05:05 org.apache.http.impl.execchain.MainClientExec Executing request POST /session HTTP/1.1
+21/Feb/2017 16:05:05 org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+21/Feb/2017 16:05:05 org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+21/Feb/2017 16:05:05 org.apache.http.headers http-outgoing-0 >> POST /session HTTP/1.1
+21/Feb/2017 16:05:05 org.apache.http.headers http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+21/Feb/2017 16:05:05 org.apache.http.headers http-outgoing-0 >> Content-Length: 122
+21/Feb/2017 16:05:05 org.apache.http.headers http-outgoing-0 >> Host: localhost:3934
+21/Feb/2017 16:05:05 org.apache.http.headers http-outgoing-0 >> Connection: Keep-Alive
+21/Feb/2017 16:05:05 org.apache.http.headers http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_60)
+21/Feb/2017 16:05:05 org.apache.http.headers http-outgoing-0 >> Accept-Encoding: gzip,deflate
+21/Feb/2017 16:05:05 org.apache.http.wire http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+21/Feb/2017 16:05:05 org.apache.http.wire http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+21/Feb/2017 16:05:05 org.apache.http.wire http-outgoing-0 >> "Content-Length: 122[\r][\n]"
+21/Feb/2017 16:05:05 org.apache.http.wire http-outgoing-0 >> "Host: localhost:3934[\r][\n]"
+21/Feb/2017 16:05:05 org.apache.http.wire http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+21/Feb/2017 16:05:05 org.apache.http.wire http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_60)[\r][\n]"
+21/Feb/2017 16:05:05 org.apache.http.wire http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21/Feb/2017 16:05:05 org.apache.http.wire http-outgoing-0 >> "[\r][\n]"
+21/Feb/2017 16:05:05 org.apache.http.wire http-outgoing-0 >> "{"desiredCapabilities":{"browserName":"chrome","chromeOptions":{"args":[],"extensions":[]},"version":"","platform":"ANY"}}"
+21/Feb/2017 16:05:08 org.apache.http.wire http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+21/Feb/2017 16:05:08 org.apache.http.wire http-outgoing-0 << "Content-Length:751[\r][\n]"
+21/Feb/2017 16:05:08 org.apache.http.wire http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+21/Feb/2017 16:05:08 org.apache.http.wire http-outgoing-0 << "Connection:close[\r][\n]"
+21/Feb/2017 16:05:08 org.apache.http.wire http-outgoing-0 << "[\r][\n]"
+21/Feb/2017 16:05:08 org.apache.http.wire http-outgoing-0 << "{"sessionId":"90ea7679479e444fd9d42f1dcd9dd20e","status":0,"value":{"acceptSslCerts":true,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed)","userDataDir":"C:\\Users\\YUGAND~1\\AppData\\Local\\Temp\\scoped_dir6720_21695"},"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Windows NT","rotatable":false,"takesHeapSnapshot":true,"takesScreenshot":true,"version":"56.0.2924.87","webStorageEnabled":true}}"
+21/Feb/2017 16:05:08 org.apache.http.headers http-outgoing-0 << HTTP/1.1 200 OK
+21/Feb/2017 16:05:08 org.apache.http.headers http-outgoing-0 << Content-Length:751
+21/Feb/2017 16:05:08 org.apache.http.headers http-outgoing-0 << Content-Type:application/json; charset=utf-8
+21/Feb/2017 16:05:08 org.apache.http.headers http-outgoing-0 << Connection:close
+21/Feb/2017 16:05:08 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-0: Close connection
+21/Feb/2017 16:05:08 org.apache.http.impl.execchain.MainClientExec Connection discarded
+21/Feb/2017 16:05:08 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 0][route: {}->http://localhost:3934][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21/Feb/2017 16:05:08 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+21/Feb/2017 16:05:08 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+21/Feb/2017 16:05:08 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://localhost:3934][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21/Feb/2017 16:05:08 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 1][route: {}->http://localhost:3934][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+21/Feb/2017 16:05:08 org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://localhost:3934
+21/Feb/2017 16:05:08 org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to localhost/127.0.0.1:3934
+21/Feb/2017 16:05:08 org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:63876<->127.0.0.1:3934
+21/Feb/2017 16:05:08 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-1: set socket timeout to 10800000
+21/Feb/2017 16:05:08 org.apache.http.impl.execchain.MainClientExec Executing request POST /session/90ea7679479e444fd9d42f1dcd9dd20e/url HTTP/1.1
+21/Feb/2017 16:05:08 org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+21/Feb/2017 16:05:08 org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+21/Feb/2017 16:05:08 org.apache.http.headers http-outgoing-1 >> POST /session/90ea7679479e444fd9d42f1dcd9dd20e/url HTTP/1.1
+21/Feb/2017 16:05:08 org.apache.http.headers http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+21/Feb/2017 16:05:08 org.apache.http.headers http-outgoing-1 >> Content-Length: 44
+21/Feb/2017 16:05:08 org.apache.http.headers http-outgoing-1 >> Host: localhost:3934
+21/Feb/2017 16:05:08 org.apache.http.headers http-outgoing-1 >> Connection: Keep-Alive
+21/Feb/2017 16:05:08 org.apache.http.headers http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_60)
+21/Feb/2017 16:05:08 org.apache.http.headers http-outgoing-1 >> Accept-Encoding: gzip,deflate
+21/Feb/2017 16:05:08 org.apache.http.wire http-outgoing-1 >> "POST /session/90ea7679479e444fd9d42f1dcd9dd20e/url HTTP/1.1[\r][\n]"
+21/Feb/2017 16:05:08 org.apache.http.wire http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+21/Feb/2017 16:05:08 org.apache.http.wire http-outgoing-1 >> "Content-Length: 44[\r][\n]"
+21/Feb/2017 16:05:08 org.apache.http.wire http-outgoing-1 >> "Host: localhost:3934[\r][\n]"
+21/Feb/2017 16:05:08 org.apache.http.wire http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+21/Feb/2017 16:05:08 org.apache.http.wire http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_60)[\r][\n]"
+21/Feb/2017 16:05:08 org.apache.http.wire http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21/Feb/2017 16:05:08 org.apache.http.wire http-outgoing-1 >> "[\r][\n]"
+21/Feb/2017 16:05:08 org.apache.http.wire http-outgoing-1 >> "{"url":"https://velocity.voyagersopris.com"}"
+21/Feb/2017 16:05:14 org.apache.http.wire http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+21/Feb/2017 16:05:14 org.apache.http.wire http-outgoing-1 << "Content-Length:72[\r][\n]"
+21/Feb/2017 16:05:14 org.apache.http.wire http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+21/Feb/2017 16:05:14 org.apache.http.wire http-outgoing-1 << "Connection:close[\r][\n]"
+21/Feb/2017 16:05:14 org.apache.http.wire http-outgoing-1 << "[\r][\n]"
+21/Feb/2017 16:05:14 org.apache.http.wire http-outgoing-1 << "{"sessionId":"90ea7679479e444fd9d42f1dcd9dd20e","status":0,"value":null}"
+21/Feb/2017 16:05:14 org.apache.http.headers http-outgoing-1 << HTTP/1.1 200 OK
+21/Feb/2017 16:05:14 org.apache.http.headers http-outgoing-1 << Content-Length:72
+21/Feb/2017 16:05:14 org.apache.http.headers http-outgoing-1 << Content-Type:application/json; charset=utf-8
+21/Feb/2017 16:05:14 org.apache.http.headers http-outgoing-1 << Connection:close
+21/Feb/2017 16:05:14 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-1: Close connection
+21/Feb/2017 16:05:14 org.apache.http.impl.execchain.MainClientExec Connection discarded
+21/Feb/2017 16:05:14 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 1][route: {}->http://localhost:3934][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21/Feb/2017 16:05:14 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+21/Feb/2017 16:05:14 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+21/Feb/2017 16:05:14 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://localhost:3934][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21/Feb/2017 16:05:14 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 2][route: {}->http://localhost:3934][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+21/Feb/2017 16:05:14 org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://localhost:3934
+21/Feb/2017 16:05:14 org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to localhost/127.0.0.1:3934
+21/Feb/2017 16:05:14 org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:63890<->127.0.0.1:3934
+21/Feb/2017 16:05:14 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-2: set socket timeout to 10800000
+21/Feb/2017 16:05:14 org.apache.http.impl.execchain.MainClientExec Executing request POST /session/90ea7679479e444fd9d42f1dcd9dd20e/timeouts HTTP/1.1
+21/Feb/2017 16:05:14 org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+21/Feb/2017 16:05:14 org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+21/Feb/2017 16:05:14 org.apache.http.headers http-outgoing-2 >> POST /session/90ea7679479e444fd9d42f1dcd9dd20e/timeouts HTTP/1.1
+21/Feb/2017 16:05:14 org.apache.http.headers http-outgoing-2 >> Content-Type: application/json; charset=utf-8
+21/Feb/2017 16:05:14 org.apache.http.headers http-outgoing-2 >> Content-Length: 30
+21/Feb/2017 16:05:14 org.apache.http.headers http-outgoing-2 >> Host: localhost:3934
+21/Feb/2017 16:05:14 org.apache.http.headers http-outgoing-2 >> Connection: Keep-Alive
+21/Feb/2017 16:05:14 org.apache.http.headers http-outgoing-2 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_60)
+21/Feb/2017 16:05:14 org.apache.http.headers http-outgoing-2 >> Accept-Encoding: gzip,deflate
+21/Feb/2017 16:05:14 org.apache.http.wire http-outgoing-2 >> "POST /session/90ea7679479e444fd9d42f1dcd9dd20e/timeouts HTTP/1.1[\r][\n]"
+21/Feb/2017 16:05:14 org.apache.http.wire http-outgoing-2 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+21/Feb/2017 16:05:14 org.apache.http.wire http-outgoing-2 >> "Content-Length: 30[\r][\n]"
+21/Feb/2017 16:05:14 org.apache.http.wire http-outgoing-2 >> "Host: localhost:3934[\r][\n]"
+21/Feb/2017 16:05:14 org.apache.http.wire http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+21/Feb/2017 16:05:14 org.apache.http.wire http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_60)[\r][\n]"
+21/Feb/2017 16:05:14 org.apache.http.wire http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21/Feb/2017 16:05:14 org.apache.http.wire http-outgoing-2 >> "[\r][\n]"
+21/Feb/2017 16:05:14 org.apache.http.wire http-outgoing-2 >> "{"type":"implicit","ms":10000}"
+21/Feb/2017 16:05:14 org.apache.http.wire http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
+21/Feb/2017 16:05:14 org.apache.http.wire http-outgoing-2 << "Content-Length:72[\r][\n]"
+21/Feb/2017 16:05:14 org.apache.http.wire http-outgoing-2 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+21/Feb/2017 16:05:14 org.apache.http.wire http-outgoing-2 << "Connection:close[\r][\n]"
+21/Feb/2017 16:05:14 org.apache.http.wire http-outgoing-2 << "[\r][\n]"
+21/Feb/2017 16:05:14 org.apache.http.wire http-outgoing-2 << "{"sessionId":"90ea7679479e444fd9d42f1dcd9dd20e","status":0,"value":null}"
+21/Feb/2017 16:05:14 org.apache.http.headers http-outgoing-2 << HTTP/1.1 200 OK
+21/Feb/2017 16:05:14 org.apache.http.headers http-outgoing-2 << Content-Length:72
+21/Feb/2017 16:05:14 org.apache.http.headers http-outgoing-2 << Content-Type:application/json; charset=utf-8
+21/Feb/2017 16:05:14 org.apache.http.headers http-outgoing-2 << Connection:close
+21/Feb/2017 16:05:14 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-2: Close connection
+21/Feb/2017 16:05:14 org.apache.http.impl.execchain.MainClientExec Connection discarded
+21/Feb/2017 16:05:14 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 2][route: {}->http://localhost:3934][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21/Feb/2017 16:05:14 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+21/Feb/2017 16:05:14 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+21/Feb/2017 16:05:14 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://localhost:3934][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21/Feb/2017 16:05:14 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 3][route: {}->http://localhost:3934][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+21/Feb/2017 16:05:14 org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://localhost:3934
+21/Feb/2017 16:05:14 org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to localhost/127.0.0.1:3934
+21/Feb/2017 16:05:14 org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:63891<->127.0.0.1:3934
+21/Feb/2017 16:05:14 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-3: set socket timeout to 10800000
+21/Feb/2017 16:05:14 org.apache.http.impl.execchain.MainClientExec Executing request POST /session/90ea7679479e444fd9d42f1dcd9dd20e/element HTTP/1.1
+21/Feb/2017 16:05:14 org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+21/Feb/2017 16:05:14 org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+21/Feb/2017 16:05:14 org.apache.http.headers http-outgoing-3 >> POST /session/90ea7679479e444fd9d42f1dcd9dd20e/element HTTP/1.1
+21/Feb/2017 16:05:14 org.apache.http.headers http-outgoing-3 >> Content-Type: application/json; charset=utf-8
+21/Feb/2017 16:05:14 org.apache.http.headers http-outgoing-3 >> Content-Length: 35
+21/Feb/2017 16:05:14 org.apache.http.headers http-outgoing-3 >> Host: localhost:3934
+21/Feb/2017 16:05:14 org.apache.http.headers http-outgoing-3 >> Connection: Keep-Alive
+21/Feb/2017 16:05:14 org.apache.http.headers http-outgoing-3 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_60)
+21/Feb/2017 16:05:14 org.apache.http.headers http-outgoing-3 >> Accept-Encoding: gzip,deflate
+21/Feb/2017 16:05:14 org.apache.http.wire http-outgoing-3 >> "POST /session/90ea7679479e444fd9d42f1dcd9dd20e/element HTTP/1.1[\r][\n]"
+21/Feb/2017 16:05:14 org.apache.http.wire http-outgoing-3 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+21/Feb/2017 16:05:14 org.apache.http.wire http-outgoing-3 >> "Content-Length: 35[\r][\n]"
+21/Feb/2017 16:05:14 org.apache.http.wire http-outgoing-3 >> "Host: localhost:3934[\r][\n]"
+21/Feb/2017 16:05:14 org.apache.http.wire http-outgoing-3 >> "Connection: Keep-Alive[\r][\n]"
+21/Feb/2017 16:05:14 org.apache.http.wire http-outgoing-3 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_60)[\r][\n]"
+21/Feb/2017 16:05:14 org.apache.http.wire http-outgoing-3 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21/Feb/2017 16:05:14 org.apache.http.wire http-outgoing-3 >> "[\r][\n]"
+21/Feb/2017 16:05:14 org.apache.http.wire http-outgoing-3 >> "{"using":"id","value":"inputEmail"}"
+21/Feb/2017 16:05:15 org.apache.http.wire http-outgoing-3 << "HTTP/1.1 200 OK[\r][\n]"
+21/Feb/2017 16:05:15 org.apache.http.wire http-outgoing-3 << "Content-Length:103[\r][\n]"
+21/Feb/2017 16:05:15 org.apache.http.wire http-outgoing-3 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+21/Feb/2017 16:05:15 org.apache.http.wire http-outgoing-3 << "Connection:close[\r][\n]"
+21/Feb/2017 16:05:15 org.apache.http.wire http-outgoing-3 << "[\r][\n]"
+21/Feb/2017 16:05:15 org.apache.http.wire http-outgoing-3 << "{"sessionId":"90ea7679479e444fd9d42f1dcd9dd20e","status":0,"value":{"ELEMENT":"0.09402519156469857-1"}}"
+21/Feb/2017 16:05:15 org.apache.http.headers http-outgoing-3 << HTTP/1.1 200 OK
+21/Feb/2017 16:05:15 org.apache.http.headers http-outgoing-3 << Content-Length:103
+21/Feb/2017 16:05:15 org.apache.http.headers http-outgoing-3 << Content-Type:application/json; charset=utf-8
+21/Feb/2017 16:05:15 org.apache.http.headers http-outgoing-3 << Connection:close
+21/Feb/2017 16:05:15 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-3: Close connection
+21/Feb/2017 16:05:15 org.apache.http.impl.execchain.MainClientExec Connection discarded
+21/Feb/2017 16:05:15 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 3][route: {}->http://localhost:3934][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21/Feb/2017 16:05:18 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+21/Feb/2017 16:05:18 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://localhost:3934][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 4][route: {}->http://localhost:3934][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+21/Feb/2017 16:05:18 org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://localhost:3934
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to localhost/127.0.0.1:3934
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:63893<->127.0.0.1:3934
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-4: set socket timeout to 10800000
+21/Feb/2017 16:05:18 org.apache.http.impl.execchain.MainClientExec Executing request POST /session/90ea7679479e444fd9d42f1dcd9dd20e/element/0.09402519156469857-1/value HTTP/1.1
+21/Feb/2017 16:05:18 org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+21/Feb/2017 16:05:18 org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-4 >> POST /session/90ea7679479e444fd9d42f1dcd9dd20e/element/0.09402519156469857-1/value HTTP/1.1
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-4 >> Content-Type: application/json; charset=utf-8
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-4 >> Content-Length: 55
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-4 >> Host: localhost:3934
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-4 >> Connection: Keep-Alive
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-4 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_60)
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-4 >> Accept-Encoding: gzip,deflate
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-4 >> "POST /session/90ea7679479e444fd9d42f1dcd9dd20e/element/0.09402519156469857-1/value HTTP/1.1[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-4 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-4 >> "Content-Length: 55[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-4 >> "Host: localhost:3934[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-4 >> "Connection: Keep-Alive[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-4 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_60)[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-4 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-4 >> "[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-4 >> "{"id":"0.09402519156469857-1","value":["5gradejan16a"]}"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-4 << "HTTP/1.1 200 OK[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-4 << "Content-Length:72[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-4 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-4 << "Connection:close[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-4 << "[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-4 << "{"sessionId":"90ea7679479e444fd9d42f1dcd9dd20e","status":0,"value":null}"
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-4 << HTTP/1.1 200 OK
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-4 << Content-Length:72
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-4 << Content-Type:application/json; charset=utf-8
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-4 << Connection:close
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-4: Close connection
+21/Feb/2017 16:05:18 org.apache.http.impl.execchain.MainClientExec Connection discarded
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 4][route: {}->http://localhost:3934][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21/Feb/2017 16:05:18 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+21/Feb/2017 16:05:18 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://localhost:3934][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 5][route: {}->http://localhost:3934][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+21/Feb/2017 16:05:18 org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://localhost:3934
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to localhost/127.0.0.1:3934
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:63894<->127.0.0.1:3934
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-5: set socket timeout to 10800000
+21/Feb/2017 16:05:18 org.apache.http.impl.execchain.MainClientExec Executing request GET /session/90ea7679479e444fd9d42f1dcd9dd20e/element/0.09402519156469857-1/displayed HTTP/1.1
+21/Feb/2017 16:05:18 org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+21/Feb/2017 16:05:18 org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-5 >> GET /session/90ea7679479e444fd9d42f1dcd9dd20e/element/0.09402519156469857-1/displayed HTTP/1.1
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-5 >> Cache-Control: no-cache
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-5 >> Host: localhost:3934
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-5 >> Connection: Keep-Alive
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-5 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_60)
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-5 >> Accept-Encoding: gzip,deflate
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-5 >> "GET /session/90ea7679479e444fd9d42f1dcd9dd20e/element/0.09402519156469857-1/displayed HTTP/1.1[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-5 >> "Cache-Control: no-cache[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-5 >> "Host: localhost:3934[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-5 >> "Connection: Keep-Alive[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-5 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_60)[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-5 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-5 >> "[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-5 << "HTTP/1.1 200 OK[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-5 << "Content-Length:72[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-5 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-5 << "Connection:close[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-5 << "[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-5 << "{"sessionId":"90ea7679479e444fd9d42f1dcd9dd20e","status":0,"value":true}"
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-5 << HTTP/1.1 200 OK
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-5 << Content-Length:72
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-5 << Content-Type:application/json; charset=utf-8
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-5 << Connection:close
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-5: Close connection
+21/Feb/2017 16:05:18 org.apache.http.impl.execchain.MainClientExec Connection discarded
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 5][route: {}->http://localhost:3934][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21/Feb/2017 16:05:18 classname Username filed is identified
+21/Feb/2017 16:05:18 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+21/Feb/2017 16:05:18 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://localhost:3934][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 6][route: {}->http://localhost:3934][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+21/Feb/2017 16:05:18 org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://localhost:3934
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to localhost/127.0.0.1:3934
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:63895<->127.0.0.1:3934
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-6: set socket timeout to 10800000
+21/Feb/2017 16:05:18 org.apache.http.impl.execchain.MainClientExec Executing request POST /session/90ea7679479e444fd9d42f1dcd9dd20e/element HTTP/1.1
+21/Feb/2017 16:05:18 org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+21/Feb/2017 16:05:18 org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-6 >> POST /session/90ea7679479e444fd9d42f1dcd9dd20e/element HTTP/1.1
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-6 >> Content-Type: application/json; charset=utf-8
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-6 >> Content-Length: 38
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-6 >> Host: localhost:3934
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-6 >> Connection: Keep-Alive
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-6 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_60)
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-6 >> Accept-Encoding: gzip,deflate
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-6 >> "POST /session/90ea7679479e444fd9d42f1dcd9dd20e/element HTTP/1.1[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-6 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-6 >> "Content-Length: 38[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-6 >> "Host: localhost:3934[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-6 >> "Connection: Keep-Alive[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-6 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_60)[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-6 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-6 >> "[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-6 >> "{"using":"id","value":"inputPassword"}"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-6 << "HTTP/1.1 200 OK[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-6 << "Content-Length:103[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-6 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-6 << "Connection:close[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-6 << "[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-6 << "{"sessionId":"90ea7679479e444fd9d42f1dcd9dd20e","status":0,"value":{"ELEMENT":"0.09402519156469857-2"}}"
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-6 << HTTP/1.1 200 OK
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-6 << Content-Length:103
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-6 << Content-Type:application/json; charset=utf-8
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-6 << Connection:close
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-6: Close connection
+21/Feb/2017 16:05:18 org.apache.http.impl.execchain.MainClientExec Connection discarded
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 6][route: {}->http://localhost:3934][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21/Feb/2017 16:05:18 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+21/Feb/2017 16:05:18 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://localhost:3934][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 7][route: {}->http://localhost:3934][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+21/Feb/2017 16:05:18 org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://localhost:3934
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to localhost/127.0.0.1:3934
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:63896<->127.0.0.1:3934
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-7: set socket timeout to 10800000
+21/Feb/2017 16:05:18 org.apache.http.impl.execchain.MainClientExec Executing request POST /session/90ea7679479e444fd9d42f1dcd9dd20e/element/0.09402519156469857-2/value HTTP/1.1
+21/Feb/2017 16:05:18 org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+21/Feb/2017 16:05:18 org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-7 >> POST /session/90ea7679479e444fd9d42f1dcd9dd20e/element/0.09402519156469857-2/value HTTP/1.1
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-7 >> Content-Type: application/json; charset=utf-8
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-7 >> Content-Length: 55
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-7 >> Host: localhost:3934
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-7 >> Connection: Keep-Alive
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-7 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_60)
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-7 >> Accept-Encoding: gzip,deflate
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-7 >> "POST /session/90ea7679479e444fd9d42f1dcd9dd20e/element/0.09402519156469857-2/value HTTP/1.1[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-7 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-7 >> "Content-Length: 55[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-7 >> "Host: localhost:3934[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-7 >> "Connection: Keep-Alive[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-7 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_60)[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-7 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-7 >> "[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-7 >> "{"id":"0.09402519156469857-2","value":["5gradejan16a"]}"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-7 << "HTTP/1.1 200 OK[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-7 << "Content-Length:72[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-7 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-7 << "Connection:close[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-7 << "[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-7 << "{"sessionId":"90ea7679479e444fd9d42f1dcd9dd20e","status":0,"value":null}"
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-7 << HTTP/1.1 200 OK
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-7 << Content-Length:72
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-7 << Content-Type:application/json; charset=utf-8
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-7 << Connection:close
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-7: Close connection
+21/Feb/2017 16:05:18 org.apache.http.impl.execchain.MainClientExec Connection discarded
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 7][route: {}->http://localhost:3934][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21/Feb/2017 16:05:18 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+21/Feb/2017 16:05:18 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://localhost:3934][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 8][route: {}->http://localhost:3934][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+21/Feb/2017 16:05:18 org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://localhost:3934
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to localhost/127.0.0.1:3934
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:63897<->127.0.0.1:3934
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-8: set socket timeout to 10800000
+21/Feb/2017 16:05:18 org.apache.http.impl.execchain.MainClientExec Executing request POST /session/90ea7679479e444fd9d42f1dcd9dd20e/element HTTP/1.1
+21/Feb/2017 16:05:18 org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+21/Feb/2017 16:05:18 org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-8 >> POST /session/90ea7679479e444fd9d42f1dcd9dd20e/element HTTP/1.1
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-8 >> Content-Type: application/json; charset=utf-8
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-8 >> Content-Length: 65
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-8 >> Host: localhost:3934
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-8 >> Connection: Keep-Alive
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-8 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_60)
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-8 >> Accept-Encoding: gzip,deflate
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-8 >> "POST /session/90ea7679479e444fd9d42f1dcd9dd20e/element HTTP/1.1[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-8 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-8 >> "Content-Length: 65[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-8 >> "Host: localhost:3934[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-8 >> "Connection: Keep-Alive[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-8 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_60)[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-8 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-8 >> "[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-8 >> "{"using":"xpath","value":"//form[@id='k5i-login-form']/input[3]"}"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-8 << "HTTP/1.1 200 OK[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-8 << "Content-Length:103[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-8 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-8 << "Connection:close[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-8 << "[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-8 << "{"sessionId":"90ea7679479e444fd9d42f1dcd9dd20e","status":0,"value":{"ELEMENT":"0.09402519156469857-3"}}"
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-8 << HTTP/1.1 200 OK
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-8 << Content-Length:103
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-8 << Content-Type:application/json; charset=utf-8
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-8 << Connection:close
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-8: Close connection
+21/Feb/2017 16:05:18 org.apache.http.impl.execchain.MainClientExec Connection discarded
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 8][route: {}->http://localhost:3934][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21/Feb/2017 16:05:18 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+21/Feb/2017 16:05:18 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://localhost:3934][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 9][route: {}->http://localhost:3934][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+21/Feb/2017 16:05:18 org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://localhost:3934
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to localhost/127.0.0.1:3934
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:63898<->127.0.0.1:3934
+21/Feb/2017 16:05:18 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-9: set socket timeout to 10800000
+21/Feb/2017 16:05:18 org.apache.http.impl.execchain.MainClientExec Executing request POST /session/90ea7679479e444fd9d42f1dcd9dd20e/element/0.09402519156469857-3/click HTTP/1.1
+21/Feb/2017 16:05:18 org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+21/Feb/2017 16:05:18 org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-9 >> POST /session/90ea7679479e444fd9d42f1dcd9dd20e/element/0.09402519156469857-3/click HTTP/1.1
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-9 >> Content-Type: application/json; charset=utf-8
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-9 >> Content-Length: 30
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-9 >> Host: localhost:3934
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-9 >> Connection: Keep-Alive
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-9 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_60)
+21/Feb/2017 16:05:18 org.apache.http.headers http-outgoing-9 >> Accept-Encoding: gzip,deflate
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-9 >> "POST /session/90ea7679479e444fd9d42f1dcd9dd20e/element/0.09402519156469857-3/click HTTP/1.1[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-9 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-9 >> "Content-Length: 30[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-9 >> "Host: localhost:3934[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-9 >> "Connection: Keep-Alive[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-9 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_60)[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-9 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-9 >> "[\r][\n]"
+21/Feb/2017 16:05:18 org.apache.http.wire http-outgoing-9 >> "{"id":"0.09402519156469857-3"}"
+21/Feb/2017 16:05:54 org.apache.http.wire http-outgoing-9 << "HTTP/1.1 200 OK[\r][\n]"
+21/Feb/2017 16:05:54 org.apache.http.wire http-outgoing-9 << "Content-Length:72[\r][\n]"
+21/Feb/2017 16:05:54 org.apache.http.wire http-outgoing-9 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+21/Feb/2017 16:05:54 org.apache.http.wire http-outgoing-9 << "Connection:close[\r][\n]"
+21/Feb/2017 16:05:54 org.apache.http.wire http-outgoing-9 << "[\r][\n]"
+21/Feb/2017 16:05:54 org.apache.http.wire http-outgoing-9 << "{"sessionId":"90ea7679479e444fd9d42f1dcd9dd20e","status":0,"value":null}"
+21/Feb/2017 16:05:54 org.apache.http.headers http-outgoing-9 << HTTP/1.1 200 OK
+21/Feb/2017 16:05:54 org.apache.http.headers http-outgoing-9 << Content-Length:72
+21/Feb/2017 16:05:54 org.apache.http.headers http-outgoing-9 << Content-Type:application/json; charset=utf-8
+21/Feb/2017 16:05:54 org.apache.http.headers http-outgoing-9 << Connection:close
+21/Feb/2017 16:05:54 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-9: Close connection
+21/Feb/2017 16:05:54 org.apache.http.impl.execchain.MainClientExec Connection discarded
+21/Feb/2017 16:05:54 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 9][route: {}->http://localhost:3934][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21/Feb/2017 16:05:54 classname password filed is identified
+21/Feb/2017 16:05:54 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+21/Feb/2017 16:05:54 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+21/Feb/2017 16:05:54 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://localhost:3934][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21/Feb/2017 16:05:54 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 10][route: {}->http://localhost:3934][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+21/Feb/2017 16:05:54 org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://localhost:3934
+21/Feb/2017 16:05:54 org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to localhost/127.0.0.1:3934
+21/Feb/2017 16:05:54 org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:63933<->127.0.0.1:3934
+21/Feb/2017 16:05:54 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-10: set socket timeout to 10800000
+21/Feb/2017 16:05:54 org.apache.http.impl.execchain.MainClientExec Executing request DELETE /session/90ea7679479e444fd9d42f1dcd9dd20e/window HTTP/1.1
+21/Feb/2017 16:05:54 org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+21/Feb/2017 16:05:54 org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+21/Feb/2017 16:05:54 org.apache.http.headers http-outgoing-10 >> DELETE /session/90ea7679479e444fd9d42f1dcd9dd20e/window HTTP/1.1
+21/Feb/2017 16:05:54 org.apache.http.headers http-outgoing-10 >> Host: localhost:3934
+21/Feb/2017 16:05:54 org.apache.http.headers http-outgoing-10 >> Connection: Keep-Alive
+21/Feb/2017 16:05:54 org.apache.http.headers http-outgoing-10 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_60)
+21/Feb/2017 16:05:54 org.apache.http.headers http-outgoing-10 >> Accept-Encoding: gzip,deflate
+21/Feb/2017 16:05:54 org.apache.http.wire http-outgoing-10 >> "DELETE /session/90ea7679479e444fd9d42f1dcd9dd20e/window HTTP/1.1[\r][\n]"
+21/Feb/2017 16:05:54 org.apache.http.wire http-outgoing-10 >> "Host: localhost:3934[\r][\n]"
+21/Feb/2017 16:05:54 org.apache.http.wire http-outgoing-10 >> "Connection: Keep-Alive[\r][\n]"
+21/Feb/2017 16:05:54 org.apache.http.wire http-outgoing-10 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_60)[\r][\n]"
+21/Feb/2017 16:05:54 org.apache.http.wire http-outgoing-10 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21/Feb/2017 16:05:54 org.apache.http.wire http-outgoing-10 >> "[\r][\n]"
+21/Feb/2017 16:05:55 org.apache.http.wire http-outgoing-10 << "HTTP/1.1 200 OK[\r][\n]"
+21/Feb/2017 16:05:55 org.apache.http.wire http-outgoing-10 << "Content-Length:72[\r][\n]"
+21/Feb/2017 16:05:55 org.apache.http.wire http-outgoing-10 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+21/Feb/2017 16:05:55 org.apache.http.wire http-outgoing-10 << "Connection:close[\r][\n]"
+21/Feb/2017 16:05:55 org.apache.http.wire http-outgoing-10 << "[\r][\n]"
+21/Feb/2017 16:05:55 org.apache.http.wire http-outgoing-10 << "{"sessionId":"90ea7679479e444fd9d42f1dcd9dd20e","status":0,"value":null}"
+21/Feb/2017 16:05:55 org.apache.http.headers http-outgoing-10 << HTTP/1.1 200 OK
+21/Feb/2017 16:05:55 org.apache.http.headers http-outgoing-10 << Content-Length:72
+21/Feb/2017 16:05:55 org.apache.http.headers http-outgoing-10 << Content-Type:application/json; charset=utf-8
+21/Feb/2017 16:05:55 org.apache.http.headers http-outgoing-10 << Connection:close
+21/Feb/2017 16:05:55 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-10: Close connection
+21/Feb/2017 16:05:55 org.apache.http.impl.execchain.MainClientExec Connection discarded
+21/Feb/2017 16:05:55 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 10][route: {}->http://localhost:3934][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
